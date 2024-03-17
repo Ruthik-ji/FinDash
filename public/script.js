@@ -1,6 +1,3 @@
-const { Console } = require("console");
-const { get } = require("http");
-
 const balance = document.getElementById("balance");
 const money_plus = document.getElementById("money-plus");
 const money_minus = document.getElementById("money-minus");
@@ -205,7 +202,8 @@ function register(event) {
     });
 }
 
-function checkAuthentication() {
+function checkAuthentication(e) {
+  e.preventDefault();
   const token = localStorage.getItem("token"); // Get token from local storage
 
   // If token exists, user is authenticated
