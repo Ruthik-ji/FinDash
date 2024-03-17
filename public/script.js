@@ -202,8 +202,7 @@ function register(event) {
     });
 }
 
-function checkAuthentication(e) {
-  e.preventDefault();
+function checkAuthentication() {
   const token = localStorage.getItem("token"); // Get token from local storage
 
   // If token exists, user is authenticated
