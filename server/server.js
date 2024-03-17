@@ -16,11 +16,7 @@ let users = [];
 app.use(express.json());
 
 // Use the cors middleware
-app.use(
-  cors({
-    origin: "http://127.0.0.1:5500", // Update with your frontend origin
-  })
-);
+app.use(cors());
 
 app.use(express.static(path.join(__dirname, "../public")));
 
@@ -124,5 +120,5 @@ app.use((req, res, next) => {
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+  console.log(`Server is up and running...`);
 });
