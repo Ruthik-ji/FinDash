@@ -142,7 +142,7 @@ function login(event) {
   const password = document.getElementById("password").value;
 
   // Perform login logic (e.g., send request to server)
-  fetch("https://findash-vhbb.onrender.com/login", {
+  fetch("https://findash-mbme.onrender.com/login", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -175,7 +175,7 @@ function register(event) {
   const newPassword = document.getElementById("newPassword").value;
 
   // Perform registration logic (e.g., send request to server)
-  fetch("https://findash-vhbb.onrender.com/register", {
+  fetch("https://findash-mbme.onrender.com/register", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -208,7 +208,7 @@ function checkAuthentication() {
   // If token exists, user is authenticated
   if (token) {
     // Perform GET request to /dashboard endpoint
-    fetch("https://findash-vhbb.onrender.com/dashboard", {
+    fetch("https://findash-mbme.onrender.com/dashboard", {
       method: "GET",
       headers: {
         Authorization: token, // Pass token in the Authorization header
