@@ -23,9 +23,9 @@ Findash is a simple expense tracker application designed to help you keep track 
   - Income: "5000"
   - Expenses: "-2000"
 - Output:
-  - Income: $5000
-  - Expenses: $2000
-  - Balance: $3000
+  - Income: ₹5000
+  - Expenses: ₹2000
+  - Balance: ₹3000
 
 ## Installation 🔧
 
