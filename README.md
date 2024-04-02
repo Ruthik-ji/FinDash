@@ -29,10 +29,12 @@ Findash is a simple expense tracker application designed to help you keep track 
 
 ## Installation 🔧
 
-1. Clone the repository: `git clone https://github.com/your_username/findash.git`
-2. Navigate to the project directory: `cd findash`
+1. Clone the repository: `git clone https://github.com/Ruthik-ji/FinDash.git`
+2. Navigate to the project directory: `cd /FinDash/server`
 3. Install dependencies: `npm install`
-4. Start the application: `npm start`
+4. Start the server: `npm start`
+5. Navigate to the project directory: `cd /FinDash/public`
+6. Start the UI: `Use live server`
 
 ## Feedback 📝
 
